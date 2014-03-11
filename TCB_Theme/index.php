@@ -1,7 +1,7 @@
 <?php
 	
 	// SourceQuery
-	require('SourceQuery\SourceQuery.class.php');
+	require( __DIR__ . '/SourceQuery/SourceQuery.class.php');
 	
 	// Database Settings
 	$Database_Host 		= "localhost";
