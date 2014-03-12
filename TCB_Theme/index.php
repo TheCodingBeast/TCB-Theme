@@ -1,5 +1,33 @@
 <?php
+
+	/*
 	
+	The MIT License (MIT)
+
+	Copyright (c) 2014 TheCodingBeast
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+	
+	PLEASE DON'T REMOVE CREDITS!
+	
+	*/
+
 	// SourceQuery
 	require( __DIR__ . '/SourceQuery/SourceQuery.class.php');
 	
@@ -210,6 +238,7 @@
         <!-- ./Bans -->
 
         <!-- Footer -->
+			<!-- PLEASE DON'T REMOVE CREDITS!! -->
         	Skin made by <a href="http://www.youtube.com/user/TheCodingBeast">TheCodingBeast</a> for <a href="http://facepunch.com/showthread.php?t=1231554">ULX Global Ban (1.4)</a><br/>
             Made with <a href="http://www.getbootstrap.com">Bootstrap</a>, <a href="https://github.com/xPaw/PHP-Source-Query-Class">PHP Source Query</a> and <a href="https://github.com/Mottie/tablesorter/">Tablesorter</a>.
         <!-- ./Footer -->
