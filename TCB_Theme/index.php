@@ -28,8 +28,14 @@
 	
 	*/
 
+	// __DIR__
+	if( !defined( '__DIR__' ) ) // PHP < 5.3
+	{
+		define( '__DIR__', dirname( __FILE__ ) );
+	}
+	
 	// SourceQuery
-	require('SourceQuery/SourceQuery.class.php');
+	require(__DIR__ . '/SourceQuery/SourceQuery.class.php');
 	
 	// Database Settings
 	$Database_Host 		= "localhost";
