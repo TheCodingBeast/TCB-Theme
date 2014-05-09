@@ -27,15 +27,9 @@
 	PLEASE DON'T REMOVE CREDITS!
 	
 	*/
-
-	// __DIR__
-	if( !defined( '__DIR__' ) ) // PHP < 5.3
-	{
-		define( '__DIR__', dirname( __FILE__ ) );
-	}
 	
 	// SourceQuery
-	require(__DIR__ . '/SourceQuery/SourceQuery.class.php');
+	require('SourceQuery/SourceQuery.class.php');
 	
 	// Database Settings
 	$Database_Host 		= "localhost";

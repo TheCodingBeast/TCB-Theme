@@ -9,15 +9,10 @@
 	 * I used it as a reference at some points.
 	 */
 	
-	if( !defined( '__DIR__' ) ) // PHP < 5.3
-	{
-		define( '__DIR__', dirname( __FILE__ ) );
-	}
-	
-	require __DIR__ . '/Exception.class.php';
-	require __DIR__ . '/Buffer.class.php';
-	require __DIR__ . '/Socket.class.php';
-	require __DIR__ . '/Rcon.class.php';
+	require 'SourceQuery/Exception.class.php';
+	require 'SourceQuery/Buffer.class.php';
+	require 'SourceQuery/Socket.class.php';
+	require 'SourceQuery/Rcon.class.php';
 	
 	class SourceQuery
 	{
