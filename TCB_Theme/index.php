@@ -82,7 +82,7 @@
         
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <linl rel="stylesheet" type="text/css" href="css/widget.bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/widget.bootstrap.css">
         <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,800' rel='stylesheet' type='text/css'>
         
         <!-- Javascript -->
